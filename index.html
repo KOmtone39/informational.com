@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Документ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">Главная</a>
+            <a href="">Контакты</a>
+            <a href="">Информация</a>
+        </nav>
+    </header>
+
+    <!-- карусель -->
+    <div class="carousel">
+        <!-- список элементов -->
+        <div class="list">
+            <div class="item">
+                <img src="image/img1.jpg">
+                <div class="content">
+                    <div class="author">LUNDEV</div>
+                    <div class="title">Олени</div>
+                    <div class="topic">в тайге</div>
+                    <div class="des">
+                        В основном стада оленей небольшие и состоят из самки и 4-5 разновозрастных детёнышей. Во время гона самцы становятся очень агрессивны, привлекают самок трубным звуком, разносящимся по всему лесу. Драки за самок, вопреки всеобщему убеждению, происходят редко и практически бескровны. Главным оружием в борьбе за самку становится голос и раскидистые рога, более слабые особи обычно уходят с поля боя до активных действий. Но если дело доходит до контактной борьбы, то самцы сталкиваются рогами и пытаются повалить противника, в таких случаях возможны достаточно тяжёлые ранения, рога могут ломаться.
+                    </div>
+                    <div class="buttons">
+                        <button>ПОДРОБНЕЕ</button>
+                        <button>ПОДПИСАТЬСЯ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="mid_362575_281790.jpg">
+                <div class="content">
+                    <div class="author">LUNDEV</div>
+                    <div class="title">Львы</div>
+                    <div class="topic">в Африке</div>
+                    <div class="des">
+                        Среди всех представителей семейства львы являются наиболее высокими. Существует несколько разновидностей львов, кроме того известно немало гибридов, появляющихся от их скрещивания с другими видами крупных кошек (тигоны, лигры)[1]. В Африке местное население, живущее в пределах ареала обитания льва, заслуженно считает его опасным хищником, поэтому не редко преследует и уничтожает.
+                    </div>
+                    <div class="buttons">
+                        <button>ПОДРОБНЕЕ</button>
+                        <button>ПОДПИСАТЬСЯ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img3.jpg">
+                <div class="content">
+                    <div class="author">LUNDEV</div>
+                    <div class="title">Слоны</div>
+                    <div class="topic">В Джуглях</div>
+                    <div class="des">
+                        самые крупные наземные животные на Земле. Обитают они в тропических лесах Восточной Азии и в Африке, в саваннах. Слоны используют свои хоботы, чтобы поднимать предметы, трубить предупреждения, приветствовать других слонов или набирать воду для питья или купания.
+                    </div>
+                    <div class="buttons">
+                        <button>ПОДРОБНЕЕ</button>
+                        <button>ПОДПИСАТЬСЯ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img4.jpg">
+                <div class="content">
+                    <div class="author">LUNDEV</div>
+                    <div class="title">Леопарды</div>
+                    <div class="topic">В Джуглях</div>
+                    <div class="des">
+                        Крупная кошка, однако, по величине значительно меньше тигра и льва. Тело вытянутое, мускулистое, несколько сжатое с боков, лёгкое и стройное, очень гибкое, с длинным хвостом (его длина составляет больше половины всей длины тела). Лапы относительно короткие, но сильные. Передние лапы мощные и широкие. Голова относительно небольшая, округлая. Лоб выпуклый, лицевые части головы умеренно вытянуты. Уши небольшие, закруглённые, поставлены широко.
+                    </div>
+                    <div class="buttons">
+                        <button>ПОДРОБНЕЕ</button>
+                        <button>ПОДПИСАТЬСЯ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- список миниатюр -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="image/img1.jpg">
+                <div class="content">
+                    <div class="title">
+                        Олени
+                    </div>
+                    <div class="description">
+                        семейство парнокопытных
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images.jfif">
+                <div class="content">
+                    <div class="title">
+                    Львы
+                    </div>
+                    <div class="description">
+                        семейство кошек
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img3.jpg">
+                <div class="content">
+                    <div class="title">
+                        Слон
+                    </div>
+                    <div class="description">
+                        семейство слоновых
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img4.jpg">
+                <div class="content">
+                    <div class="title">
+                        Леопарды
+                    </div>
+                    <div class="description">
+                    семейство кошек
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- кнопки вперед/назад -->
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- индикатор времени -->
+        <div class="time"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
